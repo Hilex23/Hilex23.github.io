@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Libre+Franklin&display=swap');
+
+.home {
+    display: flex;
+    background: url("/assets/wallpapers/wallpaper.jpg") no-repeat center;
+    height: 93.1vh;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
