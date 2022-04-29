@@ -9,6 +9,10 @@
 html {
     scroll-behavior: smooth;
 }
+
+body {
+    overflow: hidden;
+}
   
 header {
     display: flex;
@@ -20,11 +24,12 @@ header {
   
 .logo {
     margin-right: auto;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Libre Franklin", sans-serif;
     color: white;
     font-weight: bold;
     font-size: 2vh;
     text-decoration: none;
+    letter-spacing: 2px;
 }
   
 .nav__links {
@@ -35,8 +40,7 @@ header {
 .nav__links a,
 .cta,
 .overlay__content a {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
+    font-family: 'Libre Franklin', sans-serif;
     font-size: 2vh;
     color: white;
     text-decoration: none;
