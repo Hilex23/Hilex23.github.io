@@ -53,21 +53,23 @@
     .home p {
         font-size: 3vh;
     }
-    .home a {
-        font-size: 3.5vh;
-        padding: 0.75 1.75;
-    }
 }
 
 @media only screen and (max-width: 600px) {
     .home h1 {
         font-size: 5vh;
     }
+    .home a {
+        font-size: 3vh;
+        padding: 0.5 1.5;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .home h1 {
+        font-size: 3.5vh;
+    }
     .home p {
         font-size: 2vh;
-    }
-    .home a {
-        font-size: 2.5vh;
-        padding: 0.50 1;
     }
 }
